@@ -1,0 +1,16 @@
+body {
+	margin: 0px;
+}
+
+#header {
+	width: 100%;
+	height: 90px;
+	background-color: pink;
+}
+
+.logo {
+	font-family: arial;
+	padding-left: 15px;
+}
+
+.navText
