@@ -1,0 +1,3 @@
+student name: Tobias Klaver
+student number: 611635
+student class: Wibenaheerd 36
