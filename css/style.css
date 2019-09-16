@@ -1,16 +1,62 @@
 body {
 	margin: 0px;
+	background-image: url('C:/Users/Tobias/Documents/GitHub/HomeworkLecture2/img/hero.png');
+	background-size: 100%;
+	font-family: arial;
 }
 
 #header {
 	width: 100%;
-	height: 90px;
-	background-color: pink;
+	height: 10%;
+	background-color: white;
+	opacity: 0.7;
+	border-radius: 0px 0px 10px 10px;
+}
+
+#content {
+	width: 55%;
+	margin: 75px 22.5%;
+	background-color: white;
+	border-radius: 10px;
+	border-style: solid;
 }
 
 .logo {
-	font-family: arial;
+	width: 86%;
 	padding-left: 15px;
 }
 
-.navText
+.navText {
+	width: 7%;
+	text-align: center;
+}
+
+.navLink {
+	display: flex; 
+	justify-content: center; 
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {	
+	background-color: grey;
+	color: white;
+
+}
+
+.contentText {
+	font-size: 18px;
+	padding: 0px 40px 0px 40px;
+	text-align: justify;
+}
+
+.bedrijf {
+	float: left;
+	width: 40%;
+	margin: 0px 30px 10px 10px;
+}
+
+.copyright {
+	font-size: 12px;
+	float: right;
+}
