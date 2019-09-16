@@ -1,13 +1,13 @@
 body {
 	margin: 0px;
-	background-image: url('C:/Users/Tobias/Documents/GitHub/HomeworkLecture2/img/hero.png');
+	background-image: url('https://i.pinimg.com/originals/6d/35/16/6d3516fbaab75552f79c3d19facfbb34.jpg');
 	background-size: 100%;
 	font-family: arial;
 }
 
 #header {
 	width: 100%;
-	height: 10%;
+	height: 75px;
 	background-color: white;
 	opacity: 0.7;
 	border-radius: 0px 0px 10px 10px;
@@ -15,10 +15,20 @@ body {
 
 #content {
 	width: 55%;
-	margin: 75px 22.5%;
+	margin: 15vh 22.5%;
 	background-color: white;
 	border-radius: 10px;
 	border-style: solid;
+}
+
+#footer {
+	width: 100%;
+	height: 60px;
+	background-color: white;
+	opacity: 0.7;
+	position: absolute;
+	left: 0; right: 0; bottom: 0;
+	border-radius: 10px 10px 0px 0px;
 }
 
 .logo {
@@ -38,7 +48,7 @@ body {
 	color: black;
 }
 
-a:hover {	
+.navText a:hover {	
 	background-color: grey;
 	color: white;
 
@@ -57,6 +67,6 @@ a:hover {
 }
 
 .copyright {
-	font-size: 12px;
-	float: right;
+	font-size: 16px;
+	padding-left: 10px;
 }
