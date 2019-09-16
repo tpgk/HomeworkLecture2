@@ -54,6 +54,11 @@ body {
 
 }
 
+a.current {
+	background-color: grey;
+	color:white;
+}
+
 .contentText {
 	font-size: 18px;
 	padding: 0px 40px 0px 40px;
@@ -69,4 +74,8 @@ body {
 .copyright {
 	font-size: 16px;
 	padding-left: 10px;
+}
+
+td.computers {
+	border: 1px solid black;
 }
