@@ -76,6 +76,14 @@ a.current {
 	padding-left: 10px;
 }
 
-td.computers {
-	border: 1px solid black;
+.computers {
+	border: 1;
+}
+
+.price {
+	color: green;
+}
+
+.pcTable {
+	margin-bottom: 20px;
 }
